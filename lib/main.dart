@@ -28,7 +28,7 @@ class BalloonPopGame extends FlameGame {
     scoreText = TextComponent(text: 'Score = 0', position: Vector2(100, 100));
     miss = TextComponent(text: 'Miss');
     counter = TimerComponent(
-      period: 2,
+      period: 4,
       onTick: () {
         counter.timer.reset();
         add(BalloonComponent());
