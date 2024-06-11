@@ -26,7 +26,7 @@ class BalloonPopGame extends FlameGame {
   Future<void> onLoad() async {
     super.onLoad();
     scoreText = TextComponent(text: 'Score = 0', position: Vector2(100, 100));
-    miss = TextComponent(text: 'Miss');
+    miss = TextComponent(text: 'You Miss');
     counter = TimerComponent(
       period: 4,
       onTick: () {
