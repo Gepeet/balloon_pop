@@ -40,7 +40,7 @@ class BalloonPopGame extends FlameGame {
 
   void updateScore() {
     score += 1;
-    scoreText.text = 'Score = $score';
+    scoreText.text = 'Score: $score';
   }
 
   void showMiss(Vector2 position) {
